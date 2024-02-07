@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingPageComponent implements OnInit {
 
+  RestName = 'Takalani';
+
+Menu1 = 'Meat Loaf';
+Menu2 = 'Braai';
+Menu3 = 'Pork Ribs';
+
   constructor() { }
 
   ngOnInit(): void {
